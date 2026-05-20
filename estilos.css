@@ -277,3 +277,29 @@ ul {
 .leer-mas {
   white-space: nowrap;
 }
+
+.tabla-horarios {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.tabla-horarios th {
+  background-color: #f9d6d5;
+  color: #c47a7a;
+  padding: 10px;
+  text-align: center;
+}
+
+.tabla-horarios td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #f9d6d5;
+  color: #4a4a4a;
+}
+
+.tabla-horarios tr:hover {
+  background-color: #fdf1f1;
+}
