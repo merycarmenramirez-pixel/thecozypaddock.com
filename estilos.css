@@ -303,3 +303,53 @@ ul {
 .tabla-horarios tr:hover {
   background-color: #fdf1f1;
 }
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  nav a {
+    font-size: 14px;
+    margin: 0 8px;
+  }
+
+  .contenido {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .principal {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .excerpt {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .excerpt .imagen-post {
+    width: 100%;
+    height: 200px;
+  }
+
+  .tabla-horarios {
+    font-size: 11px;
+  }
+
+  .tabla-horarios th,
+  .tabla-horarios td {
+    padding: 6px 4px;
+  }
+
+}
