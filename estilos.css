@@ -353,3 +353,18 @@ ul {
   }
 
 }
+
+.ultimas-lista a {
+  color: #c47a7a;
+  text-decoration: none;
+}
+
+.ultimas-lista a:hover {
+  color: #eebbbb;
+}
+
+.ultimas-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
